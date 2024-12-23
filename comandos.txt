@@ -1,0 +1,3 @@
+CONSULTA DE TARGETS PELA API DO PROMETHEUS. jq deixa o json mais organizado.
+
+curl localhost:9090/api/v1/targets | jq .
