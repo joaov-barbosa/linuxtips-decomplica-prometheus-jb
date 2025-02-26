@@ -1,0 +1,7 @@
+go mod init segundo-exporter
+go mod tidy
+go build segundo-exporter.go
+
+
+DOCKER
+docker run -d --name segundo-exporter -p 7788:7788 segundo-exporter:1.0
